@@ -1,0 +1,109 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.hero-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR5OVSthf3VlGG_9qikoNBWOYTABLyKaW1T8A&usqp=CAU");
+    height: 320px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+.hero-text{
+    color: black;
+    position: absolute;
+    text-align: center;
+    top: 220px;
+    width: 30%;
+    font-size: 2rem;
+}
+
+.two-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    margin: 5%;
+}
+
+.two-column{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  width: 80%;
+  margin: auto;
+  margin: 5%; 
+}
+
+.info{
+  font-size: 1.25em;
+}
+
+.info{
+    font-size: 1.25em;
+}
+
+.three-column{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.card{
+    background-color: aquamarine;
+}
+
+.card-text{
+    text-align: center;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+  }
+
