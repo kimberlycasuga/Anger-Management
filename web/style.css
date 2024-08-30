@@ -9,8 +9,8 @@ img{
 
 .hero-image{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.shutterstock.com/image-vector/anger-management-word-cloud-conceptual-260nw-2373471121.jpg");
-    width: 435px;
-    height: 280px;
+    width: 435%;
+    height: 400px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;   
