@@ -19,7 +19,7 @@ img{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
-    width: 80%;
+    width: 50%;
     margin: auto;
     margin: 5%;
 }
@@ -28,7 +28,7 @@ img{
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 50px;
-  width: 80%;
+  width: 50%;
   margin: auto;
   margin: 5%; 
 }
