@@ -17,6 +17,7 @@ img{
 
 .two-column{
     display: grid;
+    position: center;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
     width: 80%;
@@ -26,6 +27,7 @@ img{
 
 .two-column{
   display: grid;
+  position: center;
   grid-template-columns: 1fr 1fr;
   gap: 50px;
   width: 80%;
@@ -34,11 +36,13 @@ img{
 }
 
 .info{
-  font-size: 1.25em;
+    font-size: 1.25em;
+    position: center;
 }
 
 .info{
     font-size: 1.25em;
+    position: center;
 }
 
 .three-column{
