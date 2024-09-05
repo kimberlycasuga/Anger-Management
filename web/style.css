@@ -45,9 +45,9 @@ h1 {
 .two-column {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 50px;
-    width: 80%;
-    margin: 5% auto;
+    gap: 45px;
+    width: 75%;
+    margin: 10% auto;
 }
 
 .info {
