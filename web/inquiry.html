@@ -4,34 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Anger Management</title>
+    <title>Inquiry</title>
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="tips.html">Tips</a></li>
                 <li><a href="signs.html">Signs</a></li>
                 <li><a href="anger.html">Anger</a></li>
-                <li><a href="inquiry.html">Inquiry</a></li>
+                <li><a class="active" href="inquiry.html">Inquiry</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="hero-image">
-        <div class="hero-text">
-            <h1>Welcome to Anger Management</h1>
-            <p>Learn to manage your anger effectively and lead a peaceful life.</p>
-            <a href="management.html" class="hero-button">Learn More</a>
-        </div>
-    </section>
-
-    <section class="info">
+    <section class="inquiry-form">
         <div class="container">
-            <h2>What is Anger Management?</h2>
-            <p>Anger management is a process for identifying the triggers of anger and learning strategies to handle it in a constructive way. Effective anger management can help individuals avoid conflicts and improve relationships.</p>
-            <p>It involves understanding your anger, recognizing the signs before it escalates, and practicing techniques to manage your responses. This can lead to better emotional control and more positive interactions.</p>
+            <h2>Inquiry Form</h2>
+            <p>If you have any questions or need further information, please fill out the form below. We'll get back to you as soon as possible.</p>
+            <form action="submit_inquiry.php" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Send Inquiry</button>
+            </form>
         </div>
     </section>
 
