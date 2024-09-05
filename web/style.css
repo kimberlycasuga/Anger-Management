@@ -2,12 +2,12 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-img{
+img {
     width: 100%;
     border-radius: 5px;
 }
 
-.hero-image{
+.hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://as2.ftcdn.net/v2/jpg/05/87/72/13/1000_F_587721311_nqCeC6qtc259rQJCspK5lLgCl7JOB4fV.jpg");
     height: 400px;
     background-position: center;
@@ -25,37 +25,20 @@ img{
     text-align: center; 
 }
 
-.two-column{
+.two-column {
     display: grid;
-    position: center;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
     width: 80%;
-    margin: auto;
-    margin: 5%;
+    margin: 5% auto;
 }
 
-.two-column{
-  display: grid;
-  position: center;
-  grid-template-columns: 1fr 1fr;
-  gap: 50px;
-  width: 80%;
-  margin: auto;
-  margin: 5%; 
-}
-
-.info{
+.info {
     font-size: 1.25em;
     text-align: center;
 }
 
-.info{
-    font-size: 1.25em;
-    text-align: center;
-}
-
-.three-column{
+.three-column {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 100px;
@@ -65,11 +48,11 @@ img{
     margin-bottom: 50px;
 }
 
-.card{
+.card {
     background-color: aquamarine;
 }
 
-.card-text{
+.card-text {
     text-align: center;
     color: black;
 }
@@ -80,46 +63,45 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-  }
-  
-  li {
+}
+
+li {
     float: left;
-  }
-  
-  li a {
+}
+
+li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
-  
-  li a:hover:not(.active) {
-    background-color: #111;
-  }
-  
-  .active {
-    background-color: #04AA6D;
-  }
+}
 
- .footer {
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+.footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #333; /* Dirty White Background */
-    color: #fff; /* Black text */
+    background-color: #333;
+    color: #fff;
     text-align: center;
-    padding: 10px; /* Add some padding */
-    font-size: 0.9em; /* Adjust font size */
+    padding: 10px;
+    font-size: 0.9em;
 }
 
 .footer a {
-    color: #0f8; /* Light green links */
-    text-decoration: none; /* Remove underline from links */
+    color: #0f8;
+    text-decoration: none;
 }
 
 .footer a:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline;
 }
-
