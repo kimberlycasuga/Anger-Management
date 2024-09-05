@@ -9,7 +9,7 @@ img {
 
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://as2.ftcdn.net/v2/jpg/05/87/72/13/1000_F_587721311_nqCeC6qtc259rQJCspK5lLgCl7JOB4fV.jpg");
-    height: 400px;
+    height: 450px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;   
