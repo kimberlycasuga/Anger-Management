@@ -151,6 +151,24 @@ li a:hover:not(.active) {
     margin-bottom: 2rem;
 }
 
+<style>
+  .social-media {
+    display: flex;
+    gap: 10px; /* Adjust spacing between icons */
+  }
+  
+  .social-icon {
+    color: #000; /* Default color for icons */
+    font-size: 24px; /* Size of the icons */
+    text-decoration: none;
+  }
+  
+  .social-icon:hover {
+    color: #007bff; /* Color on hover (change to your preferred color) */
+  }
+</style>
+
+
 .form-group {
     margin-bottom: 1rem;
 }
