@@ -16,7 +16,8 @@ body {
     background-color: #4B0082; /* Dark purple */
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 30px 0;
+    position: relative;
     font-size: 20px; /* Medium text for visibility */
 }
 
