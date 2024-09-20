@@ -9,9 +9,19 @@ img {
 }
 
 body {
-    margin: 0;
+    margin: 5;
     font-family: Arial, sans-serif;
     text-align: center;
+}
+
+.aligned-text {
+    max-width: 600px;
+    margin: 0 auto; /* Center the section */
+    text-align: justify; /* Align text to both left and right */
+}
+
+.aligned-text h2 {
+    text-align: center; /* Center the heading */
 }
 
 h1 {
