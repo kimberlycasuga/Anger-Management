@@ -4,7 +4,7 @@
 }
 
 img {
-    width: 75%;
+    width: 100%;
     border-radius: 5px;
 }
 
@@ -29,11 +29,11 @@ h1 {
 }
 
 .hero-button {
-    padding: 10px 20px;
+    padding: 5px 10px;
     background-color: #f39c12;
     color: white;
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 350;
     border-radius: 5px;
     text-align: center; 
 }
@@ -52,8 +52,8 @@ h1 {
     text-align: center;
     top: 50%; /* Center vertically */
     left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Adjust for centering */
-    width: 30%;
+    transform: translate(-50%, -40%); /* Adjust for centering */
+    width: 20%;
     font-size: 1rem;
 }
 
