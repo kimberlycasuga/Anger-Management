@@ -70,6 +70,45 @@ h1 {
     text-align: center;
 }
 
+.anger .container {
+    max-width: 1000px;
+    width: 100%; /* Adjusted width for responsiveness */
+    background: #fff;
+    padding: 3rem;
+    border-radius: 9px;
+    box-shadow: 0 0 11px rgba(0, 0, 0, 0.2);
+    color: dark purple;
+}
+
+.signs .container {
+    max-width: 1000px;
+    width: 100%; /* Adjusted width for responsiveness */
+    background: #fff;
+    padding: 3rem;
+    border-radius: 9px;
+    box-shadow: 0 0 11px rgba(0, 0, 0, 0.2);
+    color: dark purple;
+}
+
+.tips .container {
+    max-width: 1000px;
+    width: 100%; /* Adjusted width for responsiveness */
+    background: #fff;
+    padding: 3rem;
+    border-radius: 9px;
+    box-shadow: 0 0 11px rgba(0, 0, 0, 0.2);
+    color: dark purple;
+}
+
+.home .container {
+    max-width: 1000px;
+    width: 100%; /* Adjusted width for responsiveness */
+    background: #fff;
+    padding: 3rem;
+    border-radius: 9px;
+    box-shadow: 0 0 11px rgba(0, 0, 0, 0.2);
+    color: dark purple;
+}
 .three-column {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
